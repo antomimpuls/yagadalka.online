@@ -8,7 +8,7 @@
 <meta content="Экстренное гадание на Таро, срочная помощь в любви. {{NAME}} — ясновидящая, отвечаю сегодня." name="description"/>
 <meta content="Экстренное гадание | Таро сегодня" property="og:title"/>
 <meta content="{{NAME}} — ясновидящая. Экстренное гадание на Таро, срочная помощь сегодня." property="og:description"/>
-<meta content="https://raw.githubusercontent.com/antomimpuls/yagadalka.online/main/maxresdefault%20(1).jpg" property="og:image"/>
+<meta content="https://yagadalka.online/photo-a07dd0c0ad2647ebac6c1f4868392f5e.jpg" property="og:image"/>
 <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700&amp;family=Lora:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
 <script>
 const SITE_SETTINGS = {
@@ -24,7 +24,7 @@ const SITE_SETTINGS = {
   'telegramEnabled': 1,
   'telegramNickname': 'Lidya_00',
   'yandexMetrikaId': '112714558',
-  'psychicImageURL': 'https://raw.githubusercontent.com/antomimpuls/yagadalka.online/main/maxresdefault%20(1).jpg',
+  'psychicImageURL': 'https://yagadalka.online/photo-a07dd0c0ad2647ebac6c1f4868392f5e.jpg',
   'workingHours': 'ежедневно 08:00-22:00',
   'responseTime': '5 минут',
   'metrikaMessengerVisible': false
@@ -637,6 +637,11 @@ p {
 }
 /* THEME_OVERRIDES_END privorot-segodnia-ru-html */
 </style>
+
+<style id="studio-photo-fit">
+.studio-photo-backdrop{position:absolute;inset:7px;border-radius:50%;overflow:hidden;z-index:1;background:center/cover no-repeat url("https://yagadalka.online/photo-a07dd0c0ad2647ebac6c1f4868392f5e.jpg");filter:blur(8px);opacity:.85;pointer-events:none}
+.hero-img #psychicImage{box-sizing:border-box!important;object-fit:contain!important;object-position:center!important;padding:12%!important;background:transparent!important}
+</style>
 </head>
 <body>
 <div class="sticky-messengers" id="stickyMessengers">
@@ -663,7 +668,7 @@ p {
 </div>
 <div>
 <div class="hero-img">
-<img alt="Гадалка" id="psychicImage" src="https://raw.githubusercontent.com/antomimpuls/gadalka-ministr.ru/main/VTF8Z36HIcK_RaUBi9dugVJHIYK-zeXdIOrO2G65QodR1e1A6X6ixziF7KGYuxG_nbLckbModsi0qo9DFraD1l8U.jpg"/>
+<span class="studio-photo-backdrop" aria-hidden="true"></span><img alt="Гадалка" id="psychicImage" src="https://yagadalka.online/photo-a07dd0c0ad2647ebac6c1f4868392f5e.jpg"/>
 <div class="magic-particles">
 <div class="particle"></div>
 <div class="particle"></div>
